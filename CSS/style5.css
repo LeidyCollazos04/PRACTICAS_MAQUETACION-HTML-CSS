@@ -3,43 +3,60 @@ main{
     justify-content: space-between;
 }
 header{
-    background-color: aliceblue;
+    background-color: rgb(171, 255, 198);
     border: 1px solid lightblue;
+    border-radius: 5px;
+    margin-left: 70px;
     align-items: center;
     display: flex;
     width: 50%;
 }
 .seccionesheader{
-    background-color: rgb(205, 205, 205);
-    border: 1px solid gray;
+    background-color: rgb(146, 210, 255);
+    border: 1px solid rgb(79, 154, 225);
     border-radius: 5px;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
     width: 60%;
 }
 nav{
-    background-color: aliceblue;
+    background-color: rgb(171, 255, 198);
     border: 1px solid lightblue;
+    border-radius: 5px;
+    margin-right: 70px;
     display: flex;
-    width: 40%;
+    justify-content: center;
+    align-content: center;
+    width: 35%;
+    height: 60px;
 }
 .seccionesnav{
-    background-color: rgb(205, 205, 205);
-    border: 1px solid gray;
+    background-color: rgb(146, 210, 255);
+    border: 1px solid rgb(79, 154, 225);
     border-radius: 5px;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
-    width: 50%;
+    width: 60%;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
 }
 h1{
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
 }
 h4{
     text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
 }
 article{
-    background-color: aliceblue;
-    border: 1px solid lightblue;
+    background-color: rgb(210, 235, 247);
+    border: 1px solid gray;
     border-radius: 10px;
     height: 400px;
     align-content: center;
@@ -48,12 +65,13 @@ article{
     margin: auto;
 }
 .seccionesarticle{
-    background-color: aliceblue;
+    background-color: rgb(171, 255, 198);
     border: 1px solid lightblue;
     border-radius: 5px;
-    width: 30%;
+    width: 40%;
     margin: 10px;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 footer{
     background-color: aliceblue;
@@ -63,4 +81,6 @@ footer{
     margin-top: 10px;
     margin:auto;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
 }
